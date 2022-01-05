@@ -173,9 +173,9 @@ if __name__ == "__main__":
                 speak("Sorry sir. I am not able to send this email")
 
         elif 'manage junk' in query:
-            speak("Deleting redundant files...")
+            speak("Managing files...")
             organize_junk()
-            speak("Deletion successful")
+            speak("Success")
 
         elif ' play music' in query:
             playMusic()
